@@ -4,7 +4,3 @@ Client::Client()
 {
 
 }
-QString setUsername()
-{
-    return 0;
-}

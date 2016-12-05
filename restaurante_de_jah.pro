@@ -21,7 +21,10 @@ SOURCES += main.cpp\
     table.cpp \
     sharedbill.cpp \
     mainwindow_mainhall.cpp \
-    restaurant.cpp
+    restaurant.cpp \
+    mainwindow_table.cpp \
+    mythread_01.cpp \
+    thread_loop.cpp
 
 HEADERS  += mainwindow_login.h \
     product.h \
@@ -31,7 +34,11 @@ HEADERS  += mainwindow_login.h \
     table.h \
     sharedbill.h \
     mainwindow_mainhall.h \
-    restaurant.h
+    restaurant.h \
+    mainwindow_table.h \
+    mythread_01.h \
+    thread_loop.h
 
 FORMS    += mainwindow_login.ui \
-    mainwindow_mainhall.ui
+    mainwindow_mainhall.ui \
+    mainwindow_table.ui
